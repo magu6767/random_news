@@ -1,6 +1,5 @@
 import streamlit as st
-from services import graph
-from services import file_service, server_communication
+from services import file_service, graph, server_communication
 
 ss = st.session_state
 
