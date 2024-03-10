@@ -8,4 +8,4 @@ def add_count(selected_category: str):
     df_loaded[selected_category] += 1
 
     # 変更後のデータをファイルに再書き込み
-    df_loaded.to_csv("data.csv", index=False)
+    df_loaded.to_csv("datas/data.csv", index=False)
